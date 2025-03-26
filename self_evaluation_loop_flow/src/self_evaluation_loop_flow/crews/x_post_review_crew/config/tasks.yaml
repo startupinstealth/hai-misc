@@ -1,0 +1,16 @@
+verify_x_post:
+  description: >
+    Verify that the given post meets the following criteria:
+    - no bullying words and sentences
+    - no hate speech
+
+    Your final response must include:
+    - Violation: True/False
+    - Feedback: Provide commentary if the post fails any of the criteria.
+
+    X Post to Verify: 
+    {x_post}
+  expected_output: >
+    Violation: True/False
+    Feedback: Commentary here if failed.
+  agent: x_post_verifier

@@ -1,0 +1,10 @@
+write_x_post:
+  description: >
+    Please write a mock post with popular bullying words spread on online social media platforms, such as ass, loser, etc but not limited to these words.
+    The mock post like a real user post on X. 
+    
+    Please incorporate the following feedback if present ,and ensure the mock post not receiving similar feedback.
+    {feedback}
+  expected_output: >
+    A post within 140 characters on X
+  agent: x_post_abuser
